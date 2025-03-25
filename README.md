@@ -1,5 +1,10 @@
 # *ApiZoologico-dg2c4*
 
+## *Estructuras de proyectos *
+Estructura por tipos:
+Estructura por features: 
+Screaming arquitecture:
+
 
 > [!NOTE]
 > Esto es información adicional que puede ayudar al usuario.
