@@ -17,7 +17,7 @@ Screaming arquitecture:
 > [!IMPORTANT]
 > Información crucial.
 
-> [!WARING]
+> [!WARNING]
 > Necesita atención del usuario.
 
 > [!CAUTION]
