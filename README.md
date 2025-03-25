@@ -2,7 +2,9 @@
 
 ## *Estructuras de proyectos *
 Estructura por tipos:
+
 Estructura por features: 
+
 Screaming arquitecture:
 
 
