@@ -7,18 +7,15 @@ const mongoose = require("mongoose");
 require('dotenv').config();
 app.use(parser.urlencoded({ extended: false })); //permite leer los datos que vienen en la petición
 app.use(parser.json()); // transforma los datos a formato JSON
-
 //Gestión de las rutas usando el middleware
-app.use("localhost:3000/api/routes/animal.js", animalRoutes);
+app.use("/api", animalRoutes);
 app.use(express.json());
-
 //Conexión a la base de datos
 mongoose
     .connect(process.env.MONGODB_URI)
     .then(() => console.log("Conexión exitosa"))
     .catch((error) => console.log(error));
-
 //Conexión al puerto
-app.listen(port, (3000) => {
+app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 });
